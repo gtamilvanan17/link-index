@@ -1,0 +1,142 @@
+{
+  "categories": {
+    "nature": "Nature",
+    "cars": "Cars",
+    "people": "People"
+  },
+  "cards": [
+    {
+      "data-name": "nature",
+      "title": "Beautiful Sunset",
+      "description": "A stunning view of the sunset over the mountains.",
+      "image": "images/nature-1.jpg",
+      "website": "https://example.com/beautiful-sunset"
+    },
+    {
+      "data-name": "nature",
+      "title": "Beautiful Sunset",
+      "description": "A stunning view of the sunset over the mountains.",
+      "image": "images/nature-1.jpg",
+      "website": "https://example.com/beautiful-sunset"
+    },
+    {
+      "data-name": "nature",
+      "title": "Beautiful Sunset",
+      "description": "A stunning view of the sunset over the mountains.",
+      "image": "images/nature-1.jpg",
+      "website": "https://example.com/beautiful-sunset"
+    },
+    {
+      "data-name": "nature",
+      "title": "Beautiful Sunset",
+      "description": "A stunning view of the sunset over the mountains.",
+      "image": "images/nature-1.jpg",
+      "website": "https://example.com/beautiful-sunset"
+    },
+    {
+      "data-name": "nature",
+      "title": "Beautiful Sunset",
+      "description": "A stunning view of the sunset over the mountains.",
+      "image": "images/nature-1.jpg",
+      "website": "https://example.com/beautiful-sunset"
+    },
+    {
+      "data-name": "nature",
+      "title": "Beautiful Sunset",
+      "description": "A stunning view of the sunset over the mountains.",
+      "image": "images/nature-1.jpg",
+      "website": "https://example.com/beautiful-sunset"
+    },
+    {
+      "data-name": "cars",
+      "title": "Sports Car",
+      "description": "A sleek and fast sports car.",
+      "image": "images/car-1.jpg",
+      "website": "https://example.com/sports-car"
+    },
+    {
+      "data-name": "cars",
+      "title": "Sports Car",
+      "description": "A sleek and fast sports car.",
+      "image": "images/car-1.jpg",
+      "website": "https://example.com/sports-car"
+    },
+    {
+      "data-name": "cars",
+      "title": "Sports Car",
+      "description": "A sleek and fast sports car.",
+      "image": "images/car-1.jpg",
+      "website": "https://example.com/sports-car"
+    },
+    {
+      "data-name": "cars",
+      "title": "Sports Car",
+      "description": "A sleek and fast sports car.",
+      "image": "images/car-1.jpg",
+      "website": "https://example.com/sports-car"
+    },
+    {
+      "data-name": "cars",
+      "title": "Sports Car",
+      "description": "A sleek and fast sports car.",
+      "image": "images/car-1.jpg",
+      "website": "https://example.com/sports-car"
+    },
+    {
+      "data-name": "cars",
+      "title": "Sports Car",
+      "description": "A sleek and fast sports car.",
+      "image": "images/car-1.jpg",
+      "website": "https://example.com/sports-car"
+    },
+    {
+      "data-name": "cars",
+      "title": "Sports Car",
+      "description": "A sleek and fast sports car.",
+      "image": "images/car-1.jpg",
+      "website": "https://example.com/sports-car"
+    },
+    {
+      "data-name": "cars",
+      "title": "Sports Car",
+      "description": "A sleek and fast sports car.",
+      "image": "images/car-1.jpg",
+      "website": "https://example.com/sports-car"
+    },
+    {
+      "data-name": "people",
+      "title": "Sports Car",
+      "description": "A sleek and fast sports car.",
+      "image": "images/people-1.jpg",
+      "website": "https://example.com/sports-car"
+    },
+    {
+      "data-name": "people",
+      "title": "Sports Car",
+      "description": "A sleek and fast sports car.",
+      "image": "images/people-1.jpg",
+      "website": "https://example.com/sports-car"
+    },
+    {
+      "data-name": "people",
+      "title": "Sports Car",
+      "description": "A sleek and fast sports car.",
+      "image": "images/people-1.jpg",
+      "website": "https://example.com/sports-car"
+    },
+    {
+      "data-name": "people",
+      "title": "Sports Car",
+      "description": "A sleek and fast sports car.",
+      "image": "images/people-1.jpg",
+      "website": "https://example.com/sports-car"
+    },
+    {
+      "data-name": "people",
+      "title": "Sports Car",
+      "description": "A sleek and fast sports car.",
+      "image": "images/people-1.jpg",
+      "website": "https://example.com/sports-car"
+    }
+  ]
+}
