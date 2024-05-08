@@ -1,135 +1,151 @@
 {
-  "categories": {
-    "nature": "Nature",
-    "cars": "Cars",
-    "people": "People"
-  },
-  "cards": [
-    {
-      "data-name": "nature",
-      "title": "Beautiful Sunset",
-      "description": "A stunning view of the sunset over the mountains.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/nature-1.jpg",
-      "website": "https://example.com/beautiful-sunset"
+    "categories": {
+      "nature": "Nature",
+      "cars": "Cars",
+      "people": "People",
+      "devops": "DevOps",
+	  "aitools": "AI Tools"
     },
-    {
-      "data-name": "nature",
-      "title": "Beautiful Sunset",
-      "description": "A stunning view of the sunset over the mountains.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/nature-2.jpg",
-      "website": "https://example.com/beautiful-sunset"
-    },
-    {
-      "data-name": "nature",
-      "title": "Beautiful Sunset",
-      "description": "A stunning view of the sunset over the mountains.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/nature-3.jpg",
-      "website": "https://example.com/beautiful-sunset"
-    },
-    {
-      "data-name": "nature",
-      "title": "Beautiful Sunset",
-      "description": "A stunning view of the sunset over the mountains.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/nature-1.jpg",
-      "website": "https://example.com/beautiful-sunset"
-    },
-    {
-      "data-name": "nature",
-      "title": "Beautiful Sunset",
-      "description": "A stunning view of the sunset over the mountains.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/nature-2.jpg",
-      "website": "https://example.com/beautiful-sunset"
-    },
-    {
-      "data-name": "nature",
-      "title": "Beautiful Sunset",
-      "description": "A stunning view of the sunset over the mountains.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/nature-3.jpg",
-      "website": "https://example.com/beautiful-sunset"
-    },
-    {
-      "data-name": "cars",
-      "title": "Sports Car",
-      "description": "A sleek and fast sports car.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/car-1.jpg",
-      "website": "https://example.com/sports-car"
-    },
-    {
-      "data-name": "cars",
-      "title": "Sports Car",
-      "description": "A sleek and fast sports car.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/car-2.jpg",
-      "website": "https://example.com/sports-car"
-    },
-    {
-      "data-name": "cars",
-      "title": "Sports Car",
-      "description": "A sleek and fast sports car.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/car-3.jpg",
-      "website": "https://example.com/sports-car"
-    },
-    {
-      "data-name": "cars",
-      "title": "Sports Car",
-      "description": "A sleek and fast sports car.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/car-1.jpg",
-      "website": "https://example.com/sports-car"
-    },
-    {
-      "data-name": "cars",
-      "title": "Sports Car",
-      "description": "A sleek and fast sports car.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/car-2.jpg",
-      "website": "https://example.com/sports-car"
-    },
-    {
-      "data-name": "cars",
-      "title": "Sports Car",
-      "description": "A sleek and fast sports car.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/car-3.jpg",
-      "website": "https://example.com/sports-car"
-    },
-    {
-      "data-name": "people",
-      "title": "Sports Car",
-      "description": "A sleek and fast sports car.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/people-1.jpg",
-      "website": "https://example.com/sports-car"
-    },
-    {
-      "data-name": "people",
-      "title": "Sports Car",
-      "description": "A sleek and fast sports car.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/people-2.jpg",
-      "website": "https://example.com/sports-car"
-    },
-    {
-      "data-name": "people",
-      "title": "Sports Car",
-      "description": "A sleek and fast sports car.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/people-2.jpg",
-      "website": "https://example.com/sports-car"
-    },
-    {
-      "data-name": "people",
-      "title": "Sports Car",
-      "description": "A sleek and fast sports car.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/people-1.jpg",
-      "website": "https://example.com/sports-car"
-    },
-    {
-      "data-name": "people",
-      "title": "Sports Car",
-      "description": "A sleek and fast sports car.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/people-2.jpg",
-      "website": "https://example.com/sports-car"
-    },
-    {
-      "data-name": "people",
-      "title": "Sports Car",
-      "description": "A sleek and fast sports car.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/people-2.jpg",
-      "website": "https://example.com/sports-car"
-    }
-  ]
-}
+    "cards": [
+      {
+        "data-name": "nature",
+        "title": "Beautiful Sunset",
+        "description": "A stunning view of the sunset over the mountains.",
+        "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/nature-1.jpg",
+        "website": "https://example.com/beautiful-sunset"
+      },
+      {
+        "data-name": "nature",
+        "title": "Beautiful Sunset",
+        "description": "A stunning view of the sunset over the mountains.",
+        "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/nature-2.jpg",
+        "website": "https://example.com/beautiful-sunset"
+      },
+      {
+        "data-name": "nature",
+        "title": "Beautiful Sunset",
+        "description": "A stunning view of the sunset over the mountains.",
+        "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/nature-3.jpg",
+        "website": "https://example.com/beautiful-sunset"
+      },
+      {
+        "data-name": "nature",
+        "title": "Beautiful Sunset",
+        "description": "A stunning view of the sunset over the mountains.",
+        "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/nature-1.jpg",
+        "website": "https://example.com/beautiful-sunset"
+      },
+      {
+        "data-name": "nature",
+        "title": "Beautiful Sunset",
+        "description": "A stunning view of the sunset over the mountains.",
+        "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/nature-2.jpg",
+        "website": "https://example.com/beautiful-sunset"
+      },
+      {
+        "data-name": "nature",
+        "title": "Beautiful Sunset",
+        "description": "A stunning view of the sunset over the mountains.",
+        "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/nature-3.jpg",
+        "website": "https://example.com/beautiful-sunset"
+      },
+      {
+        "data-name": "cars",
+        "title": "Sports Car",
+        "description": "A sleek and fast sports car.",
+        "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/car-1.jpg",
+        "website": "https://example.com/sports-car"
+      },
+      {
+        "data-name": "cars",
+        "title": "Sports Car",
+        "description": "A sleek and fast sports car.",
+        "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/car-2.jpg",
+        "website": "https://example.com/sports-car"
+      },
+      {
+        "data-name": "cars",
+        "title": "Sports Car",
+        "description": "A sleek and fast sports car.",
+        "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/car-3.jpg",
+        "website": "https://example.com/sports-car"
+      },
+      {
+        "data-name": "cars",
+        "title": "Sports Car",
+        "description": "A sleek and fast sports car.",
+        "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/car-1.jpg",
+        "website": "https://example.com/sports-car"
+      },
+      {
+        "data-name": "cars",
+        "title": "Sports Car",
+        "description": "A sleek and fast sports car.",
+        "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/car-2.jpg",
+        "website": "https://example.com/sports-car"
+      },
+      {
+        "data-name": "cars",
+        "title": "Sports Car",
+        "description": "A sleek and fast sports car.",
+        "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/car-3.jpg",
+        "website": "https://example.com/sports-car"
+      },
+      {
+        "data-name": "people",
+        "title": "Sports Car",
+        "description": "A sleek and fast sports car.",
+        "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/people-1.jpg",
+        "website": "https://example.com/sports-car"
+      },
+      {
+        "data-name": "people",
+        "title": "Sports Car",
+        "description": "A sleek and fast sports car.",
+        "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/people-2.jpg",
+        "website": "https://example.com/sports-car"
+      },
+      {
+        "data-name": "people",
+        "title": "Sports Car",
+        "description": "A sleek and fast sports car.",
+        "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/people-2.jpg",
+        "website": "https://example.com/sports-car"
+      },
+      {
+        "data-name": "people",
+        "title": "Sports Car",
+        "description": "A sleek and fast sports car.",
+        "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/people-1.jpg",
+        "website": "https://example.com/sports-car"
+      },
+      {
+        "data-name": "people",
+        "title": "Sports Car",
+        "description": "A sleek and fast sports car.",
+        "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/people-2.jpg",
+        "website": "https://example.com/sports-car"
+      },
+      {
+        "data-name": "people",
+        "title": "Sports Car",
+        "description": "A sleek and fast sports car.",
+        "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/people-2.jpg",
+        "website": "https://example.com/sports-car"
+      },
+      {
+        "data-name": "devops",
+        "title": "Octopus Deploy",
+        "description": "Continuous delivery & deployment automation tool for DevOps.",
+        "image": "https://www.qbssoftware.de/wp-content/uploads/2022/09/OCTOPUS-logo.png",
+        "website": "https://octopus.com/"
+      },
+	  {
+		"data-name": "aitools",
+        "title": "Octopus Deploy",
+        "description": "Continuous delivery & deployment automation tool for DevOps.",
+        "image": "https://www.qbssoftware.de/wp-content/uploads/2022/09/OCTOPUS-logo.png",
+        "website": "https://octopus.com/"
+	  }
+    ]
+  }
