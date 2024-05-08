@@ -1,151 +1,25 @@
 {
   "categories": {
-    "nature": "Nature",
-    "cars": "Cars",
-    "people": "People",
     "devops": "DevOps",
     "linux": "Linux",
-    "aitools": "AI Tools"
+    "productivity": "Productivity",
+    "gov": "Gov Sites",
+    "music": "Music",
+    "web-dev": "Web Dev"
   },
   "cards": [
     {
-      "data-name": "nature",
-      "title": "Beautiful Sunset",
-      "description": "A stunning view of the sunset over the mountains.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/nature-1.jpg",
-      "website": "https://example.com/beautiful-sunset"
-    },
-    {
-      "data-name": "nature",
-      "title": "Beautiful Sunset",
-      "description": "A stunning view of the sunset over the mountains.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/nature-2.jpg",
-      "website": "https://example.com/beautiful-sunset"
-    },
-    {
-      "data-name": "nature",
-      "title": "Beautiful Sunset",
-      "description": "A stunning view of the sunset over the mountains.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/nature-3.jpg",
-      "website": "https://example.com/beautiful-sunset"
-    },
-    {
-      "data-name": "nature",
-      "title": "Beautiful Sunset",
-      "description": "A stunning view of the sunset over the mountains.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/nature-1.jpg",
-      "website": "https://example.com/beautiful-sunset"
-    },
-    {
-      "data-name": "nature",
-      "title": "Beautiful Sunset",
-      "description": "A stunning view of the sunset over the mountains.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/nature-2.jpg",
-      "website": "https://example.com/beautiful-sunset"
-    },
-    {
-      "data-name": "nature",
-      "title": "Beautiful Sunset",
-      "description": "A stunning view of the sunset over the mountains.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/nature-3.jpg",
-      "website": "https://example.com/beautiful-sunset"
-    },
-    {
-      "data-name": "cars",
-      "title": "Sports Car",
-      "description": "A sleek and fast sports car.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/car-1.jpg",
-      "website": "https://example.com/sports-car"
-    },
-    {
-      "data-name": "cars",
-      "title": "Sports Car",
-      "description": "A sleek and fast sports car.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/car-2.jpg",
-      "website": "https://example.com/sports-car"
-    },
-    {
-      "data-name": "cars",
-      "title": "Sports Car",
-      "description": "A sleek and fast sports car.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/car-3.jpg",
-      "website": "https://example.com/sports-car"
-    },
-    {
-      "data-name": "cars",
-      "title": "Sports Car",
-      "description": "A sleek and fast sports car.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/car-1.jpg",
-      "website": "https://example.com/sports-car"
-    },
-    {
-      "data-name": "cars",
-      "title": "Sports Car",
-      "description": "A sleek and fast sports car.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/car-2.jpg",
-      "website": "https://example.com/sports-car"
-    },
-    {
-      "data-name": "cars",
-      "title": "Sports Car",
-      "description": "A sleek and fast sports car.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/car-3.jpg",
-      "website": "https://example.com/sports-car"
-    },
-    {
-      "data-name": "people",
-      "title": "Sports Car",
-      "description": "A sleek and fast sports car.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/people-1.jpg",
-      "website": "https://example.com/sports-car"
-    },
-    {
-      "data-name": "people",
-      "title": "Sports Car",
-      "description": "A sleek and fast sports car.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/people-2.jpg",
-      "website": "https://example.com/sports-car"
-    },
-    {
-      "data-name": "people",
-      "title": "Sports Car",
-      "description": "A sleek and fast sports car.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/people-2.jpg",
-      "website": "https://example.com/sports-car"
-    },
-    {
-      "data-name": "people",
-      "title": "Sports Car",
-      "description": "A sleek and fast sports car.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/people-1.jpg",
-      "website": "https://example.com/sports-car"
-    },
-    {
-      "data-name": "people",
-      "title": "Sports Car",
-      "description": "A sleek and fast sports car.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/people-2.jpg",
-      "website": "https://example.com/sports-car"
-    },
-    {
-      "data-name": "people",
-      "title": "Sports Car",
-      "description": "A sleek and fast sports car.",
-      "image": "https://raw.githubusercontent.com/gtamilvanan17/global-assets/master/link-index/images/people-2.jpg",
-      "website": "https://example.com/sports-car"
-    },
-    {
       "data-name": "devops",
       "title": "Octopus Deploy",
-      "description": "Continuous delivery & deployment automation tool for DevOps.",
+      "description": "Continuous delivery & deployment automation tool for DevOps",
       "image": "https://www.qbssoftware.de/wp-content/uploads/2022/09/OCTOPUS-logo.png",
       "website": "https://octopus.com/"
     },
     {
       "data-name": "devops",
       "title": "Kubevious",
-      "description": "Kubernetes without disasters",
-      "image": "https://www.qbssoftware.de/wp-content/uploads/2022/09/OCTOPUS-logo.png",
+      "description": "Provides a usable and highly graphical interface for Kubernetes",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOjPXNFxxMbHoJI69T9lA-bZjkssoFrB3teAUke1mW-w1G4xsAuIlw1wmBfNcMStgrxQVjzybn-EsVWLu67C4hJu1L0Q-N0nYwsIW4glogoASFssnaK_FeuHFhSm_UeVtxH50PcSZLwG6Ih1LZpkaS2xTS0wB6loz1V-nCGLH9uzlOx0XHupOZ5UdF/w0/Kubevious_-_A_Powerful_Kubernetes_Dashboard.webp",
       "website": "https://kubevious.io/"
     },
     {
@@ -177,25 +51,53 @@
       "website": "https://github.com/techiescamp/kubernetes-learning-path?tab=readme-ov-file"
     },
     {
-      "data-name": "linux",
-      "title": "Ethical Hacking from Scratch",
-      "description": "Google crive resources for ethical hacking",
-      "image": "#",
-      "website": "https://drive.google.com/drive/folders/1if6MCeBCj8sxWwJIKhtgwU0GBuBW8uLx?s=09"
-    },
-    {
-      "data-name": "aitools",
+      "data-name": "devops",
       "title": "Octopus Deploy",
-      "description": "Continuous delivery & deployment automation tool for DevOps.",
+      "description": "Continuous delivery & deployment automation tool for DevOps",
       "image": "https://www.qbssoftware.de/wp-content/uploads/2022/09/OCTOPUS-logo.png",
       "website": "https://octopus.com/"
     },
     {
-      "data-name": "aitools",
+      "data-name": "devops",
+      "title": "Xampp server in Docker",
+      "description": "XAMPP in Docker for local development and deployment",
+      "image": "https://net.cloudinfrastructureservices.co.uk/wp-content/uploads/2022/05/what-is-xampp.png",
+      "website": "https://medium.com/@akshayvarma10/how-i-replaced-xampp-with-docker-for-local-development-8fec48aaf4ee"
+    },
+    {
+      "data-name": "linux",
+      "title": "Ethical Hacking from Scratch",
+      "description": "Google crive resources for ethical hacking",
+      "image": "https://fossbytes.com/wp-content/uploads/2019/12/Complete-Ethical-Hacking-Course.jpg",
+      "website": "https://drive.google.com/drive/folders/1if6MCeBCj8sxWwJIKhtgwU0GBuBW8uLx?s=09"
+    },
+    {
+      "data-name": "productivity",
       "title": "TOYSTACK.AI",
       "description": "Quickly deploy your Python and NodeJS applications",
       "image": "https://dashboard.toystack.ai/ts-logo-white.png",
       "website": "https://cloud.toystack.ai/"
+    },
+    {
+      "data-name": "productivity",
+      "title": "Stack Edit",
+      "description": "In-browser Markdown editor and exporter",
+      "image": "https://stackedit.io/static/landing/logo.svg",
+      "website": "https://stackedit.io/"
+    },
+    {
+      "data-name": "music",
+      "title": "Work Music",
+      "description": "May peace and calmness fill your life",
+      "image": "https://img.youtube.com/vi/HOEUiXYdcBY/maxresdefault.jpg",
+      "website": "https://youtu.be/HOEUiXYdcBY"
+    },
+    {
+      "data-name": "web-dev",
+      "title": "Wordpress Themes",
+      "description": "Wordpress themes in HTML CSS development",
+      "image": "https://img.youtube.com/vi/HOEUiXYdcBY/maxresdefault.jpg",
+      "website": "https://websiteinwp.com/"
     }
   ]
 }
