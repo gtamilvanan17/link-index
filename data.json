@@ -98,6 +98,11 @@
       "description": "Wordpress themes in HTML CSS development",
       "image": "https://img.youtube.com/vi/HOEUiXYdcBY/maxresdefault.jpg",
       "website": "https://websiteinwp.com/"
-    }
+    },
+      "data-name": "web-dev",
+      "title": "HTML_CSS_JS Projects",
+      "description": "All Html css and javascript projects in one place with source code.",
+      "image": "https://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png",
+      "website": "https://www.codewithrandom.com/100-day-frontend-projects/"
   ]
 }
