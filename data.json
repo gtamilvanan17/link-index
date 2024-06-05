@@ -10,6 +10,41 @@
   "cards": [
     {
       "data-name": "devops",
+      "title": "Get Certified with GitHub",
+      "description": "Join Microsoft Reactor and engage with startups and developers live",
+      "image": "https://techcommunity.microsoft.com/t5/image/serverpage/image-id/581617iE02DFAAFF33C8DAD/image-size/large?v=v2&px=999",
+      "website": "https://developer.microsoft.com/en-us/reactor/series/s-1342/"
+    },
+    {
+      "data-name": "devops",
+      "title": "June 5 - 11:30PM -12:30AM",
+      "description": "Building Automation with GitHub",
+      "image": "https://techcommunity.microsoft.com/t5/image/serverpage/image-id/581617iE02DFAAFF33C8DAD/image-size/large?v=v2&px=999",
+      "website": "https://calendar.app.google/qaPdeRRnzN5QvNs29"
+    },
+    {
+      "data-name": "devops",
+      "title": "June 12 - 11:30PM -12:30AM",
+      "description": "Securing projects on GitHub",
+      "image": "https://techcommunity.microsoft.com/t5/image/serverpage/image-id/581617iE02DFAAFF33C8DAD/image-size/large?v=v2&px=999",
+      "website": "https://calendar.app.google/u9hu6SzaSc9QpBUN8"
+    },
+    {
+      "data-name": "devops",
+      "title": "June 19 - 11:30PM -12:30AM",
+      "description": "Faster development with GitHub Copilot",
+      "image": "https://techcommunity.microsoft.com/t5/image/serverpage/image-id/581617iE02DFAAFF33C8DAD/image-size/large?v=v2&px=999",
+      "website": "https://calendar.app.google/j4usx44S3TENvu6S9"
+    },
+        {
+      "data-name": "devops",
+      "title": "June 26 - 11:30PM -12:30AM",
+      "description": "Building Automation with GitHub",
+      "image": "https://techcommunity.microsoft.com/t5/image/serverpage/image-id/581617iE02DFAAFF33C8DAD/image-size/large?v=v2&px=999",
+      "website": "https://calendar.app.google/cV1S6uJFya7AjUJr6"
+    },
+        {
+      "data-name": "devops",
       "title": "Octopus Deploy",
       "description": "Continuous delivery & deployment automation tool for DevOps",
       "image": "https://www.qbssoftware.de/wp-content/uploads/2022/09/OCTOPUS-logo.png",
