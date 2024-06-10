@@ -52,6 +52,13 @@
     },
     {
       "data-name": "devops",
+      "title": "Resume in Bitly",
+      "description": "Access your resume",
+      "image": "https://www.investopedia.com/thmb/wtzEam1DrS2U3VgqoweCRaXzJ8Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/resume.asp-FINAL-7d61bbc8181747698b3cbb0b2ed6833e.png",
+      "website": "https://bit.ly/myresume"
+    },
+    {
+      "data-name": "devops",
       "title": "Kubevious",
       "description": "Provides a usable and highly graphical interface for Kubernetes",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOjPXNFxxMbHoJI69T9lA-bZjkssoFrB3teAUke1mW-w1G4xsAuIlw1wmBfNcMStgrxQVjzybn-EsVWLu67C4hJu1L0Q-N0nYwsIW4glogoASFssnaK_FeuHFhSm_UeVtxH50PcSZLwG6Ih1LZpkaS2xTS0wB6loz1V-nCGLH9uzlOx0XHupOZ5UdF/w0/Kubevious_-_A_Powerful_Kubernetes_Dashboard.webp",
