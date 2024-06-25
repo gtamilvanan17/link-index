@@ -17,6 +17,13 @@
     },
     {
       "data-name": "devops",
+      "title": "KodeKloud Free Labs",
+      "description": "KodeKloud Free Labs",
+      "image": "https://legacy.kodekloud.com/wp-content/uploads/2021/10/kk-logo.png",
+      "website": "https://kodekloud.com/pages/free-labs/"
+    },
+    {
+      "data-name": "devops",
       "title": "June 5 - 11:30PM -12:30AM",
       "description": "Building Automation with GitHub",
       "image": "https://techcommunity.microsoft.com/t5/image/serverpage/image-id/581617iE02DFAAFF33C8DAD/image-size/large?v=v2&px=999",
