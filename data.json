@@ -17,6 +17,13 @@
     },
     {
       "data-name": "devops",
+      "title": "DevOps Playground",
+      "description": "Linux, Containers, Kubernetes and Programming playgrounds with batteries included",
+      "image": "https://learn.microsoft.com/en-us/shows/devops-lab/media/devopslab-titlecard.png",
+      "website": "https://labs.iximiuz.com/playgrounds"
+    },
+    {
+      "data-name": "devops",
       "title": "Raw Labs",
       "description": "Can create n number of public personal api servers.",
       "image": "https://media.licdn.com/dms/image/C4D0BAQFjPM2uvkRXnw/company-logo_200_200/0/1632998815941/raw_labs_logo?e=2147483647&v=beta&t=JfrPER8G8amYRkKfYCyzEUq3hzpD7FV0R9qg1Kdwkjk",
