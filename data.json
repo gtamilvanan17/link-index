@@ -17,6 +17,13 @@
     },
     {
       "data-name": "devops",
+      "title": "Azure DevOps Labs",
+      "description": "Getting started with Azure DevOps",
+      "image": "https://opengraph.githubassets.com/6673b6cdce3049af5a1b27cf86c92bfdab1c74e7ee2b82629442bd3c9de927c3/microsoft/azuredevopslabs",
+      "website": "https://www.azuredevopslabs.com/"
+    },
+    {
+      "data-name": "devops",
       "title": "DevOps Playground",
       "description": "Linux, Containers, Kubernetes and Programming playgrounds with batteries included",
       "image": "https://learn.microsoft.com/en-us/shows/devops-lab/media/devopslab-titlecard.png",
