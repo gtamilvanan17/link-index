@@ -5,7 +5,8 @@
     "productivity": "Productivity",
     "gov": "Gov Sites",
     "music": "Music",
-    "web-dev": "Web Dev"
+    "web-dev": "Web Dev",
+    "roadmap": "RoadMaps"
   },
   "cards": [
     {
@@ -175,6 +176,20 @@
       "description": "href link for img in html",
       "image": "https://placehold.co/300x300",
       "website": "https://placehold.co/300x300"
+    },
+    {
+      "data-name": "roadmap",
+      "title": "Quick Ref",
+      "description": "Reference roadmap for the programming languages.",
+      "image": "https://blog.velsoft.com/wp-content/uploads/2017/12/qrg-banner.jpg",
+      "website": "https://quickref.me/"
+    },
+    {
+      "data-name": "roadmap",
+      "title": "RoadMap SH",
+      "description": "Reference roadmap for the programming languages.",
+      "image": "https://media.licdn.com/dms/image/sync/C5627AQE3qhbCv_gdAA/articleshare-shrink_800/0/1712235774489?e=2147483647&v=beta&t=SNbuxpBYyWFpEl-38g7qxiFEXp-KtKKeE80sQmILJt4",
+      "website": "https://roadmap.sh/"
     }
   ]
 }
