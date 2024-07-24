@@ -7,6 +7,7 @@
     "music": "Music",
     "web-dev": "Web Dev",
     "roadmap": "RoadMaps"
+    "entertainments": "Entertainments"
   },
   "cards": [
     {
@@ -190,6 +191,41 @@
       "description": "Reference roadmap for the programming languages.",
       "image": "https://media.licdn.com/dms/image/sync/C5627AQE3qhbCv_gdAA/articleshare-shrink_800/0/1712235774489?e=2147483647&v=beta&t=SNbuxpBYyWFpEl-38g7qxiFEXp-KtKKeE80sQmILJt4",
       "website": "https://roadmap.sh/"
+    },
+    {
+      "data-name": "entertainments",
+      "title": "Your name",
+      "description": "A Japanese anime drama movie",
+      "image": "https://occ-0-116-114.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABToxGnHApQSxpAfcLfT4bl1JJSc1PNxwsdFv3e6r3ioqXmJe7-4gHW1INKPByMx1Gb0sOazAl1XiGw7zjqHz4M7IrI-xpIHrVR4.jpg?r=f6b",
+      "website": "https://www.youtube.com/watch?v=xU47nhruN-Q"
+    },
+    {
+      "data-name": "entertainments",
+      "title": "Life in a Year",
+      "description": "A 17-year-old Daryn who finds out that his girlfriend is dying.",
+      "image": "https://occ-0-114-116.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABcv_cUamo2KmG3kjQ32JemY0_IkD3Gjm408ClQJmYRpx9m5DgMThuV175lVjf3Pphx01lQLMVFUdhbK9C4GGJSW7M8iIA70Wq-ia.jpg?r=125",
+      "website": "https://www.primevideo.com/detail/Life-in-a-Year/0FJYMCTYEQOI3V3RKVKTLWFDW6#:~:text=Prime%20Video%3A%20Life%20in%20a%20Year"
+    },
+    {
+      "data-name": "entertainments",
+      "title": "All the bright places",
+      "description": "Two teens facing personal struggles form a powerful bond",
+      "image": "https://variety.com/wp-content/uploads/2020/02/all-the-bright-places.jpg",
+      "website": "https://www.netflix.com/in/title/80208802"
+    },
+    {
+      "data-name": "entertainments",
+      "title": "Queen of Tears",
+      "description": "The story of a married couple in a crisis.",
+      "image": "https://media.assettype.com/freepressjournal/2024-04/18d99c91-d9da-41c3-a232-87cf44230975/WhatsApp_Image_2024_04_19_at_14_48_15.jpeg",
+      "website": "https://www.netflix.com/in/title/81707950"
+    },
+    {
+      "data-name": "entertainments",
+      "title": "Put Your Head on My Shoulder",
+      "description": "An accounting major searching for her career winds up living with a genius physics student who shakes up her daily routine.",
+      "image": "https://occ-0-116-114.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABUozDRXHk_H3Ez8yiP31YH_QdodNStMvE5PqoP1XYFpjIuUhqaKw6XZsLcApDwccKyP7AFIQQ__FF9j1-ThspAz_-YjJuuFFncTT.jpg?r=9a3",
+      "website": "https://www.netflix.com/in/title/81200229"
     }
   ]
 }
