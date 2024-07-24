@@ -18,35 +18,29 @@
             font-family: "Poppins", sans-serif;
         }
 
-        /*Scrollbar Styling End*/
+        /* Scrollbar Styling */
         html {
-        overflow: auto;
+            overflow: auto;
         }
-        /* Scrollbar Styling End */
 
-
+        /* Scrollbar Styling for Body */
         body {
             background: #f1f1f1 !important;
-            
-        /*Scrollbar Styling Start*/
             position: absolute;
             top: 10px;
             left: 20px;
             bottom: 10px;
             right: 0;
-            padding: 30px; 
+            padding: 30px;
             overflow-y: scroll;
             overflow-x: hidden;
-        /*Scrollbar Styling End*/
-
-
         }
 
-        /* Scrollbar Styling Start*/
+        /* Custom Scrollbar Styling */
         ::-webkit-scrollbar {
             width: 10px;
         }
-        /* div { height: 1000px; } */
+
         ::-webkit-scrollbar-track {
             background-color: #ebebeb;
             -webkit-border-radius: 10px;
@@ -56,14 +50,15 @@
         ::-webkit-scrollbar-thumb {
             -webkit-border-radius: 10px;
             border-radius: 10px;
-            background: #0d6efd; 
+            background: #0d6efd;
         }
-        /* Scrollbar Styling End*/
 
+        /* Container Styling */
         body .container {
             max-width: 1100px;
         }
 
+        /* Filter Buttons Styling */
         #filter-buttons button {
             border-radius: 3px;
             background: #fff;
@@ -79,6 +74,7 @@
             background: #6c757d;
         }
 
+        /* Card Styling */
         #filterable-cards .card,
         #github-pages-cards-container .card {
             width: 15rem;
@@ -90,21 +86,19 @@
             display: none;
         }
 
+        /* Card Image Styling */
         .card-image {
             width: 100%;
             height: 150px;
-            /* Adjust as needed */
             background-size: cover;
             background-position: center;
             border-top-left-radius: 6px;
             border-top-right-radius: 6px;
         }
 
-        footer-bg {
-            background-color: #f1f1f1;
-        }
-
+        /* Media Query for Mobile View */
         @media (max-width: 600px) {
+
             #filterable-cards,
             #github-pages-cards-container {
                 justify-content: center;
@@ -112,7 +106,8 @@
 
             #filterable-cards .card,
             #github-pages-cards-container .card {
-                width: calc(100% / 2 - 10px);
+                width: 100%;
+                /* Full width for mobile view */
             }
         }
     </style>
@@ -144,163 +139,165 @@
     </div>
 
     <script>
-        async function fetchData() {
-            try {
-                const response = await fetch('data.json');
-                const data = await response.json();
+        document.addEventListener('DOMContentLoaded', () => {
+            async function fetchData() {
+                try {
+                    const response = await fetch('data.json');
+                    const data = await response.json();
 
-                const filterButtonsContainer = document.querySelector("#filter-buttons");
-                const filterableCardsContainer = document.getElementById('filterable-cards');
+                    const filterButtonsContainer = document.querySelector("#filter-buttons");
+                    const filterableCardsContainer = document.getElementById('filterable-cards');
 
-                // Add filter buttons for each category
-                for (const key in data.categories) {
-                    const categoryName = data.categories[key];
-                    const buttonHTML = `<button class="btn mb-2 mx-1" data-filter="${key}">${categoryName}</button>`;
-                    filterButtonsContainer.querySelector(".col-12").insertAdjacentHTML('beforeend', buttonHTML);
-                }
+                    // Add filter buttons for each category
+                    for (const key in data.categories) {
+                        const categoryName = data.categories[key];
+                        const buttonHTML = `<button class="btn mb-2 mx-1" data-filter="${key}">${categoryName}</button>`;
+                        filterButtonsContainer.querySelector(".col-12").insertAdjacentHTML('beforeend', buttonHTML);
+                    }
 
-                // Add "GitHub Pages" category button
-                const githubPagesButtonHTML = `<button class="btn mb-2 mx-1" data-filter="github-pages">GitHub Pages</button>`;
-                filterButtonsContainer.querySelector(".col-12").insertAdjacentHTML('beforeend', githubPagesButtonHTML);
+                    // Add "GitHub Pages" category button
+                    const githubPagesButtonHTML = `<button class="btn mb-2 mx-1" data-filter="github-pages">GitHub Pages</button>`;
+                    filterButtonsContainer.querySelector(".col-12").insertAdjacentHTML('beforeend', githubPagesButtonHTML);
 
-                // Add event listeners to filter buttons
-                const filterButtons = document.querySelectorAll("#filter-buttons button");
-                filterButtons.forEach(button => button.addEventListener("click", filterCards));
+                    // Add event listeners to filter buttons
+                    const filterButtons = document.querySelectorAll("#filter-buttons button");
+                    filterButtons.forEach(button => button.addEventListener("click", filterCards));
 
-                // Add cards for each category
-                data.cards.forEach(item => {
-                    const cardHTML = `
-                        <div class="card p-0" data-name="${item['data-name']}">
-                            <div class="card-image" style="background-image: url(${item.image})"></div>
-                            <div class="card-body">
-                                <h6 class="card-title">${item.title}</h6>
-                                <p class="card-text">${item.description}</p>
-                                <a href="${item.website}" class="btn btn-primary" target="_blank">Launch Website</a>
+                    // Add cards for each category
+                    data.cards.forEach(item => {
+                        const cardHTML = `
+                            <div class="card p-0" data-name="${item['data-name']}">
+                                <div class="card-image" style="background-image: url(${item.image})"></div>
+                                <div class="card-body">
+                                    <h6 class="card-title">${item.title}</h6>
+                                    <p class="card-text">${item.description}</p>
+                                    <a href="${item.website}" class="btn btn-primary" target="_blank">Launch Website</a>
+                                </div>
                             </div>
-                        </div>
-                    `;
-                    filterableCardsContainer.insertAdjacentHTML('beforeend', cardHTML);
-                });
+                        `;
+                        filterableCardsContainer.insertAdjacentHTML('beforeend', cardHTML);
+                    });
 
-                // Fetch GitHub Pages data and create cards
-                await fetchGitHubPages();
-            } catch (error) {
-                console.error('Error fetching data:', error);
+                    // Fetch GitHub Pages data and create cards
+                    await fetchGitHubPages();
+                } catch (error) {
+                    console.error('Error fetching data:', error);
+                }
             }
-        }
 
-        // Function to filter cards based on filter buttons
-        const filterCards = (e) => {
-            document.querySelector("#filter-buttons .active").classList.remove("active");
-            e.target.classList.add("active");
+            // Function to filter cards based on filter buttons
+            const filterCards = (e) => {
+                document.querySelector("#filter-buttons .active").classList.remove("active");
+                e.target.classList.add("active");
 
-            // Filter cards based on button clicked
-            const filterValue = e.target.dataset.filter;
-            const filterableCardsContainer = document.getElementById('filterable-cards');
-            const githubPagesCardsContainer = document.getElementById('github-pages-cards-container');
-
-            filterableCardsContainer.querySelectorAll('.card').forEach(card => {
-                if (filterValue === 'all' || card.dataset.name === filterValue) {
-                    card.classList.remove('hide');
-                } else {
-                    card.classList.add('hide');
-                }
-            });
-
-            githubPagesCardsContainer.querySelectorAll('.card').forEach(card => {
-                if (filterValue === 'github-pages' || card.dataset.name === filterValue) {
-                    card.classList.remove('hide');
-                } else {
-                    card.classList.add('hide');
-                }
-            });
-        };
-
-        // Function to fetch GitHub Pages data and create cards
-        async function fetchGitHubPages() {
-            const username = 'gtamilvanan17';
-            const apiUrl = `https://api.github.com/users/${username}/repos?type=owner`;
-
-            try {
-                const response = await fetch(apiUrl);
-                const repositories = await response.json();
-
+                // Filter cards based on button clicked
+                const filterValue = e.target.dataset.filter;
+                const filterableCardsContainer = document.getElementById('filterable-cards');
                 const githubPagesCardsContainer = document.getElementById('github-pages-cards-container');
 
-                repositories.forEach(async repo => {
-                    if (repo.has_pages) {
-                        const branchBasedPageUrl = `https://${username}.github.io/${repo.name}/`;
-                        const actionBasedPageUrl = `https://${username}.github.io/${repo.name}/`;
-
-                        const branchPageExists = await checkPageExists(branchBasedPageUrl);
-                        const actionPageExists = await checkPageExists(actionBasedPageUrl);
-
-                        if (branchPageExists || actionPageExists) {
-                            const cardHTML = `
-                                <div class="card p-0" data-name="github-pages">
-                                    <div class="card-image" style="background-image: url(https://github.com/${username}/global-assets/blob/master/link-index/images/${repo.name}.png?raw=true)"></div>
-                                    <div class="card-body">
-                                        <h4 class="card-title">${repo.name}</h4>
-                                        <p class="card-text"><strong>Last Updated:</strong> ${new Date(repo.updated_at).toLocaleString()}</p>
-                                        <a href="${branchBasedPageUrl}" class="btn btn-primary page-button" target="_blank">Visit Page</a>
-                                    </div>
-                                </div>
-                            `;
-                            githubPagesCardsContainer.insertAdjacentHTML('beforeend', cardHTML);
-                        }
+                filterableCardsContainer.querySelectorAll('.card').forEach(card => {
+                    if (filterValue === 'all' || card.dataset.name === filterValue) {
+                        card.classList.remove('hide');
+                    } else {
+                        card.classList.add('hide');
                     }
                 });
-            } catch (error) {
-                console.error('Error fetching GitHub repositories:', error);
-            }
-        }
 
-        // Function to check if a page exists
-        async function checkPageExists(url) {
-            try {
-                const response = await fetch(url, { method: 'HEAD' });
-                return response.ok;
-            } catch (error) {
-                return false;
-            }
-        }
+                githubPagesCardsContainer.querySelectorAll('.card').forEach(card => {
+                    if (filterValue === 'github-pages' || card.dataset.name === filterValue) {
+                        card.classList.remove('hide');
+                    } else {
+                        card.classList.add('hide');
+                    }
+                });
+            };
 
-        // Initial render - Show all cards
-        fetchData();
+            // Function to fetch GitHub Pages data and create cards
+            async function fetchGitHubPages() {
+                const username = 'gtamilvanan17';
+                const apiUrl = `https://api.github.com/users/${username}/repos?type=owner`;
 
-        // Function to filter cards based on search input
-        const searchInput = document.getElementById('searchInput');
-        searchInput.addEventListener('input', () => {
-            const searchText = searchInput.value.toLowerCase();
-            const filterableCardsContainer = document.getElementById('filterable-cards');
-            const githubPagesCardsContainer = document.getElementById('github-pages-cards-container');
+                try {
+                    const response = await fetch(apiUrl);
+                    const repositories = await response.json();
 
-            filterableCardsContainer.querySelectorAll('.card').forEach(card => {
-                const title = card.querySelector('.card-title').textContent.toLowerCase();
-                const description = card.querySelector('.card-text').textContent.toLowerCase();
+                    const githubPagesCardsContainer = document.getElementById('github-pages-cards-container');
 
-                if (title.includes(searchText) || description.includes(searchText)) {
-                    card.classList.remove('hide');
-                } else {
-                    card.classList.add('hide');
+                    repositories.forEach(async repo => {
+                        if (repo.has_pages) {
+                            const branchBasedPageUrl = `https://${username}.github.io/${repo.name}/`;
+                            const actionBasedPageUrl = `https://${username}.github.io/${repo.name}/`;
+
+                            const branchPageExists = await checkPageExists(branchBasedPageUrl);
+                            const actionPageExists = await checkPageExists(actionBasedPageUrl);
+
+                            if (branchPageExists || actionPageExists) {
+                                const cardHTML = `
+                                    <div class="card p-0" data-name="github-pages">
+                                        <div class="card-image" style="background-image: url(https://github.com/${username}/global-assets/blob/master/link-index/images/${repo.name}.png?raw=true)"></div>
+                                        <div class="card-body">
+                                            <h4 class="card-title">${repo.name}</h4>
+                                            <p class="card-text"><strong>Last Updated:</strong> ${new Date(repo.updated_at).toLocaleString()}</p>
+                                            <a href="${branchBasedPageUrl}" class="btn btn-primary page-button" target="_blank">Visit Page</a>
+                                        </div>
+                                    </div>
+                                `;
+                                githubPagesCardsContainer.insertAdjacentHTML('beforeend', cardHTML);
+                            }
+                        }
+                    });
+                } catch (error) {
+                    console.error('Error fetching GitHub repositories:', error);
                 }
+            }
+
+            // Function to check if a page exists
+            async function checkPageExists(url) {
+                try {
+                    const response = await fetch(url, { method: 'HEAD' });
+                    return response.ok;
+                } catch (error) {
+                    return false;
+                }
+            }
+
+            // Initial render - Show all cards
+            fetchData();
+
+            // Function to filter cards based on search input
+            const searchInput = document.getElementById('searchInput');
+            searchInput.addEventListener('input', () => {
+                const searchText = searchInput.value.toLowerCase();
+                const filterableCardsContainer = document.getElementById('filterable-cards');
+                const githubPagesCardsContainer = document.getElementById('github-pages-cards-container');
+
+                filterableCardsContainer.querySelectorAll('.card').forEach(card => {
+                    const title = card.querySelector('.card-title').textContent.toLowerCase();
+                    const description = card.querySelector('.card-text').textContent.toLowerCase();
+
+                    if (title.includes(searchText) || description.includes(searchText)) {
+                        card.classList.remove('hide');
+                    } else {
+                        card.classList.add('hide');
+                    }
+                });
+
+                githubPagesCardsContainer.querySelectorAll('.card').forEach(card => {
+                    const title = card.querySelector('.card-title').textContent.toLowerCase();
+                    const lastUpdated = card.querySelector('.card-text').textContent.toLowerCase();
+
+                    if (title.includes(searchText) || lastUpdated.includes(searchText)) {
+                        card.classList.remove('hide');
+                    } else {
+                        card.classList.add('hide');
+                    }
+                });
             });
 
-            githubPagesCardsContainer.querySelectorAll('.card').forEach(card => {
-                const title = card.querySelector('.card-title').textContent.toLowerCase();
-                const lastUpdated = card.querySelector('.card-text').textContent.toLowerCase();
-
-                if (title.includes(searchText) || lastUpdated.includes(searchText)) {
-                    card.classList.remove('hide');
-                } else {
-                    card.classList.add('hide');
-                }
-            });
+            // Function to handle GitHub Pages button click
+            const githubPagesButton = document.querySelector("[data-filter='github-pages']");
+            githubPagesButton.addEventListener("click", filterCards);
         });
-
-        // Function to handle GitHub Pages button click
-        const githubPagesButton = document.querySelector("[data-filter='github-pages']");
-        githubPagesButton.addEventListener("click", filterCards);
     </script>
 </body>
 
