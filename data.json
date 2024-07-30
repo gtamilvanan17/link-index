@@ -1,12 +1,12 @@
 {
   "categories": {
     "devops": "DevOps",
+    "aitools": "AI Tools",
     "linux": "Linux",
     "productivity": "Productivity",
     "gov": "Gov Sites",
     "music": "Music",
     "web-dev": "Web Dev",
-    "roadmap": "RoadMaps",
     "entertainments": "Entertainments"
   },
   "cards": [
@@ -130,6 +130,27 @@
       "website": "https://developer.microsoft.com/en-us/reactor/series/s-1342/"
     },
     {
+      "data-name": "aitools",
+      "title": "My Ninja AI",
+      "description": "Generative AI tool",
+      "image": "https://d1h34sttp1evgt.cloudfront.net/MyNinja_Open_Graph_Image.jpg",
+      "website": "https://myninja.ai/"
+    },
+    {
+      "data-name": "aitools",
+      "title": "Retool",
+      "description": "Helps you build internal tools (e.g. admin panels, CRUD applications, dashboards, etc.) on top of your Redis data",
+      "image": "https://raw.githubusercontent.com/tryretool/brand-assets/master/Logos/logo-full-black.png",
+      "website": "https://retool.com/"
+    },
+    {
+      "data-name": "aitools",
+      "title": "Pixlr",
+      "description": "AI-powered SaaS creative tools.(Photography)",
+      "image": "https://images.prismic.io/brandfetch/712aa151-c072-4710-a6fc-730b0482aff8_pixlr+%2823%29.png?auto=compress,format",
+      "website": "https://pixlr.com/"
+    },
+    {
       "data-name": "linux",
       "title": "Ethical Hacking from Scratch",
       "description": "Google crive resources for ethical hacking",
@@ -149,6 +170,13 @@
       "description": "In-browser Markdown editor and exporter",
       "image": "https://stackedit.io/static/landing/logo.svg",
       "website": "https://stackedit.io/"
+    },
+    {
+      "data-name": "productivity",
+      "title": "UI Verse",
+      "description": "Open-Source UI elements for any project",
+      "image": "https://imagedelivery.net/KMb5EadhEKC1gAE0LkjL1g/e2e7fec9-4fa4-4641-bbdb-4ea62eb8c300/public",
+      "website": "https://uiverse.io/"
     },
     {
       "data-name": "music",
@@ -179,14 +207,14 @@
       "website": "https://placehold.co/300x300"
     },
     {
-      "data-name": "roadmap",
+      "data-name": "productivity",
       "title": "Quick Ref",
       "description": "Reference roadmap for the programming languages.",
       "image": "https://blog.velsoft.com/wp-content/uploads/2017/12/qrg-banner.jpg",
       "website": "https://quickref.me/"
     },
     {
-      "data-name": "roadmap",
+      "data-name": "productivity",
       "title": "RoadMap SH",
       "description": "Reference roadmap for the programming languages.",
       "image": "https://media.licdn.com/dms/image/sync/C5627AQE3qhbCv_gdAA/articleshare-shrink_800/0/1712235774489?e=2147483647&v=beta&t=SNbuxpBYyWFpEl-38g7qxiFEXp-KtKKeE80sQmILJt4",
@@ -253,7 +281,14 @@
       "title": "Hondisi Bareyiri (Kannada)",
       "description": "It focuses on their college life, leading to the responsibilities of adulthood and their struggle to find solace amidst their complex relationships.",
       "image": "https://img.onmanorama.com/content/dam/mm/en/entertainment/images/2016/Oct/23/aanandam-poster.jpg",
-      "website": "https://static.toiimg.com/thumb/msid-94401098,width-400,resizemode-4/94401098.jpg"
+      "website": "https://www.primevideo.com/dp/amzn1.dv.gti.239e246b-bd74-4d8d-9162-5ce1089209ea?autoplay=0&ref_=atv_cf_strg_wb"
+    },
+    {
+      "data-name": "entertainments",
+      "title": "Dramakey",
+      "description": "Contains a collective contents of chinese dramas",
+      "image": "https://pic6.iqiyipic.com/image/20240702/66/d9/a_100544000_m_601_en_720_405.jpg",
+      "website": "https://dramakey.com/"
     }
   ]
 }
