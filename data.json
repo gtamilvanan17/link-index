@@ -179,6 +179,13 @@
       "website": "https://uiverse.io/"
     },
     {
+      "data-name": "productivity",
+      "title": "Draw DB",
+      "description": "Build simplified entity-relationship diagrams",
+      "image": "https://res.cloudinary.com/dg5w52yqv/image/upload/c_scale,w_auto,q_auto,dpr_auto,f_auto/drawsql.app/drawsql-screenshot-2.png",
+      "website": "https://www.drawdb.app/"
+    },
+    {
       "data-name": "music",
       "title": "Work Music",
       "description": "May peace and calmness fill your life",
