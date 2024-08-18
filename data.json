@@ -1,7 +1,6 @@
 {
   "categories": {
     "devops": "DevOps",
-    "job-portals": "Job Portals",
     "aitools": "AI Tools",
     "linux": "Linux",
     "productivity": "Productivity",
@@ -192,6 +191,13 @@
       "description": "Build simplified entity-relationship diagrams",
       "image": "https://res.cloudinary.com/dg5w52yqv/image/upload/c_scale,w_auto,q_auto,dpr_auto,f_auto/drawsql.app/drawsql-screenshot-2.png",
       "website": "https://www.drawdb.app/"
+    },
+    {
+      "data-name": "productivity",
+      "title": "Image Generator",
+      "description": "Generate random images.",
+      "image": "https://placehold.co/300x300",
+      "website": "https://picsum.photos/300/300/?random"
     },
     {
       "data-name": "music",
