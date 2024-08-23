@@ -8,6 +8,7 @@
     "gov": "Gov Sites",
     "music": "Music",
     "web-dev": "Web Dev",
+    "jobs": "Job Portal",
     "entertainments": "Entertainments"
   },
   "cards": [
@@ -227,6 +228,20 @@
       "description": "href link for img in html",
       "image": "https://placehold.co/300x300",
       "website": "https://placehold.co/300x300"
+    },
+    {
+      "data-name": "jobs",
+      "title": "GeekTrust",
+      "description": "",
+      "image": "https://geektrust.sgp1.digitaloceanspaces.com/assets/images/company-logos/geektrust-new2.png",
+      "website": "https://www.geektrust.com/dashboard"
+    },
+    {
+      "data-name": "jobs",
+      "title": "GeekTrust",
+      "description": "",
+      "image": "https://geektrust.sgp1.digitaloceanspaces.com/assets/images/company-logos/geektrust-new2.png",
+      "website": "https://www.geektrust.com/dashboard"
     },
     {
       "data-name": "productivity",
