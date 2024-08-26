@@ -238,10 +238,80 @@
     },
     {
       "data-name": "jobs",
-      "title": "GeekTrust",
+      "title": "Digital India Corporation",
       "description": "",
-      "image": "https://geektrust.sgp1.digitaloceanspaces.com/assets/images/company-logos/geektrust-new2.png",
-      "website": "https://www.geektrust.com/dashboard"
+      "image": "https://thozhilveedhi.com/wp-content/uploads/2021/06/DIC-Recruitment-2021.jpg",
+      "website": "https://dic.gov.in/careers/"
+    },
+    {
+      "data-name": "jobs",
+      "title": "Naukri",
+      "description": "",
+      "image": "https://static.naukimg.com/s/0/0/i/naukri-identity/naukri_gnb_logo.svg",
+      "website": "https://www.naukri.com/"
+    },
+    {
+      "data-name": "jobs",
+      "title": "HSBC",
+      "description": "",
+      "image": "https://images.squarespace-cdn.com/content/v1/623b6c120a64d02ae34e6b2d/1649874983203-WFZFDKRZYWNVQ29BI9W0/HSBC%402x.png",
+      "website": "https://www.hsbc.com/careers"
+    },
+    {
+      "data-name": "jobs",
+      "title": "KPMG",
+      "description": "",
+      "image": "https://images.credly.com/images/b6732ff3-0c8f-4da6-8a5e-ee2b98515752/blob.png",
+      "website": "https://kpmg.com/xx/en/home/careers-at-kpmg.html"
+    },
+    {
+      "data-name": "jobs",
+      "title": "Delloite",
+      "description": "",
+      "image": "https://1000logos.net/wp-content/uploads/2019/08/Deloitte-Logo-2003.png",
+      "website": "https://www2.deloitte.com/us/en/careers/careers.html"
+    },
+    {
+      "data-name": "jobs",
+      "title": "Standard Charted",
+      "description": "",
+      "image": "https://banner2.cleanpng.com/20180513/oaq/avcclyww2.webp",
+      "website": "https://jobs.standardchartered.com/content/Search-Result-Page/?employment_type=professional_hires&utm_source=careersite"
+    },
+    {
+      "data-name": "jobs",
+      "title": "Wellsfargo",
+      "description": "",
+      "image": "https://www.wellsfargo.com/assets/images/logos/wellsfargo/logo_974x1050.png",
+      "website": "https://www.wellsfargo.com/"
+    },	
+    {
+      "data-name": "jobs",
+      "title": "Hirist",
+      "description": "",
+      "image": "https://yt3.googleusercontent.com/lY0qKlDPimc1nK1O8HfprPT77FBz5CrTblTAW4yKSqzRcVnZyRcSlR7Vb3jhWHov3j2h2hd8BQ=s900-c-k-c0x00ffffff-no-rj",
+      "website": "https://www.hirist.tech/"
+    },
+    {
+      "data-name": "jobs",
+      "title": "Career Jet",
+      "description": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAasfDf_4JpVkLTuU9UOdzOYgWuWODfm5Urg&s",
+      "website": "https://www.careerjet.co.in/"
+    },
+    {
+      "data-name": "jobs",
+      "title": "Wellfound",
+      "description": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5UXN7leiX9_fy0Vg0vjeS6HUxlNJhOQbsfA&s",
+      "website": "https://wellfound.com/"
+    },
+    {
+      "data-name": "jobs",
+      "title": "Glassdoor",
+      "description": "",
+      "image": "https://cdn.mos.cms.futurecdn.net/Jv94g2J5UW5ZNxAokv67EP.jpg",
+      "website": "https://www.glassdoor.co.in/"
     },
     {
       "data-name": "productivity",
