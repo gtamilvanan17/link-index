@@ -15,10 +15,24 @@
   "cards": [
     {
       "data-name": "devops",
-      "title": "KodeKloud Free Labs",
-      "description": "KodeKloud Free Labs",
-      "image": "https://legacy.kodekloud.com/wp-content/uploads/2021/10/kk-logo.png",
-      "website": "https://kodekloud.com/pages/free-labs/"
+      "title": "Kube Score",
+      "description": "Kubernetes object analysis for improved reliability and security.",
+      "image": "https://user-images.githubusercontent.com/47952/56085330-6c0a2480-5e41-11e9-89ba-0cfddd7714a8.png",
+      "website": "https://kube-score.com/"
+    },
+    {
+      "data-name": "devops",
+      "title": "K8s Image Swapper",
+      "description": "Mirror images into your own registry and swap image references automatically.",
+      "image": "https://miro.medium.com/v2/resize:fit:1400/1*wOMtZQ4cb_gxIZ1HkiKOfw.jpeg",
+      "website": "https://estahn.github.io/k8s-image-swapper/v1.5/index.html"
+    },
+    {
+      "data-name": "devops",
+      "title": "Kube Box",
+      "description": "Terminal and Web console for Kubernetes",
+      "image": "https://astefanutti.github.io/kubebox/kubebox.png",
+      "website": "https://github.com/astefanutti/kubebox"
     },
     {
       "data-name": "devops",
