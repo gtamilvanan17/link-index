@@ -155,6 +155,27 @@
     },
     {
       "data-name": "aitools",
+      "title": "Lovable.dev",
+      "description": "Generative AI tool",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXrAHls89dxKxwJyyEpaMBcEqxGYeGOwJm3w&s.png",
+      "website": "https://lovable.dev/"
+    },
+        {
+      "data-name": "aitools",
+      "title": "Bolt New",
+      "description": "Generative AI tool",
+      "image": "https://i.ytimg.com/vi/_H7jet-cWbI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBhdYDIoNeRS4C7zrv6IzKD8sqDsQ.png",
+      "website": "https://bolt.new/"
+    },
+        {
+      "data-name": "aitools",
+      "title": "Claude.Ai",
+      "description": "Generative AI tool",
+      "image": "https://cdn-wp.bulksignature.com/wp-content/uploads/2024/03/Frame-880-1024x569.png",
+      "website": "https://claude.ai/new"
+    },
+        {
+      "data-name": "aitools",
       "title": "My Ninja AI",
       "description": "Generative AI tool",
       "image": "https://d1h34sttp1evgt.cloudfront.net/MyNinja_Open_Graph_Image.jpg",
