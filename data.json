@@ -1,6 +1,7 @@
 {
   "categories": {
     "devops": "DevOps",
+    "github": "Github",
     "aitools": "AI Tools",
     "linux": "Linux",
     "ctf-labs": "CTF Labs",
@@ -13,6 +14,13 @@
     "entertainments": "Entertainments"
   },
   "cards": [
+    {
+      "data-name": "devops",
+      "title": "Grafana Shields IO",
+      "description": "Monitoring dashboard.",
+      "image": "https://grafana.com/media/blog/Golden-Grot-Award-Winners-2023/screenshot-Golden-Grot-winners-professional-dashboard.png",
+      "website": "https://metrics.shields.io/dashboards"
+    },
     {
       "data-name": "devops",
       "title": "Kube Score",
@@ -147,6 +155,34 @@
       "website": "https://developer.microsoft.com/en-us/reactor/series/s-1342/"
     },
     {
+      "data-name": "github",
+      "title": "md badges",
+      "description": "md badges",
+      "image": "",
+      "website": "https://github.com/inttter/md-badges"
+    },
+    {
+      "data-name": "github",
+      "title": "badgen net",
+      "description": "badgen net",
+      "image": "",
+      "website": "https://badgen.net/help"
+    },
+    {
+      "data-name": "github",
+      "title": "Custom icon badges",
+      "description": "Custom icon badges",
+      "image": "",
+      "website": "https://github.com/DenverCoder1/custom-icon-badges"
+    },
+    {
+      "data-name": "github",
+      "title": "Pretty readme badges",
+      "description": "Pretty readme badges",
+      "image": "",
+      "website": "https://github.com/VishwaGauravIn/pretty-readme-badges"
+    },
+    {
       "data-name": "job-sites",
       "title": "Insta Hyre",
       "description": "Insta Hyre",
@@ -264,6 +300,20 @@
       "description": "May peace and calmness fill your life",
       "image": "https://img.youtube.com/vi/HOEUiXYdcBY/maxresdefault.jpg",
       "website": "https://youtu.be/HOEUiXYdcBY"
+    },
+    {
+      "data-name": "web-dev",
+      "title": "All Online Tools in One Box",
+      "description": "10015.io is a free all-in-one toolbox solution",
+      "image": "https://10015.io/brand/logo-on-light.svg",
+      "website": "https://10015.io/"
+    },
+    {
+      "data-name": "web-dev",
+      "title": "UI Verse IO",
+      "description": "The Largest Library of Open-Source UI",
+      "image": "https://raw.githubusercontent.com/uiverse-io/.github/main/cover.png",
+      "website": "https://uiverse.io/"
     },
     {
       "data-name": "web-dev",
