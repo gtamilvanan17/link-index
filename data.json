@@ -6,7 +6,6 @@
     "linux": "Linux",
     "ctf-labs": "CTF Labs",
     "productivity": "Productivity",
-    "freelance": "Freelance",
     "gov": "Gov Sites",
     "music": "Music",
     "web-dev": "Web Dev",
@@ -433,13 +432,6 @@
       "description": "Reference roadmap for the programming languages.",
       "image": "https://media.licdn.com/dms/image/sync/C5627AQE3qhbCv_gdAA/articleshare-shrink_800/0/1712235774489?e=2147483647&v=beta&t=SNbuxpBYyWFpEl-38g7qxiFEXp-KtKKeE80sQmILJt4",
       "website": "https://roadmap.sh/"
-    },
-    {
-      "data-name": "freelance",
-      "title": "Workafy",
-      "description": "Workafy is a dynamic platform that is transforming the way businesses connect with freelance talent in India.",
-      "image": "https://www.workafy.com/web/frontend/images/workafy-logo.svg",
-      "website": "https://www.workafy.com/dashboard"
     },
     {
       "data-name": "entertainments",
