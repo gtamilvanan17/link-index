@@ -309,6 +309,13 @@
     },
     {
       "data-name": "web-dev",
+      "title": "Lordicon Icons",
+      "description": "Lordicon is an animated icon library.",
+      "image": "https://media.lordicon.com/upload/pages/2024_01/y1TxtOIPlFQwERsknv_MG.png",
+      "website": "https://lordicon.com/"
+    },
+    {
+      "data-name": "web-dev",
       "title": "UI Verse IO",
       "description": "The Largest Library of Open-Source UI",
       "image": "https://raw.githubusercontent.com/uiverse-io/.github/main/cover.png",
