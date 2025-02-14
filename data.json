@@ -343,6 +343,13 @@
       "website": "https://placehold.co/300x300"
     },
     {
+      "data-name": "web-dev",
+      "title": "React Icons",
+      "description": "Popular icons in react js",
+      "image": "https://placehold.co/300x300",
+      "website": "https://react-icons.github.io/react-icons/"
+    },
+    {
       "data-name": "jobs",
       "title": "GeekTrust",
       "description": "",
