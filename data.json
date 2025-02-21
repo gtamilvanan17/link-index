@@ -231,6 +231,27 @@
       "website": "https://pixlr.com/"
     },
     {
+      "data-name": "aitools",
+      "title": "CAST AI",
+      "description": "Intelligent Kubernetes automation",
+      "image": "https://imgs.search.brave.com/rNuuU0n2j_PA6p2NC2JDOOgWyG7XdV2zjO5D7Yybjx0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZGF0b2Ntcy1hc3Nl/dHMuY29tLzI4ODUv/MTcxODY2NjQ1Mi1j/YXN0YWlfZXh0ZW5k/ZWRfYmxhY2tfbm9f/YmFja2dyb3VuZF9z/dmcuc3Zn",
+      "website": "https://cast.ai/"
+    },
+    {
+      "data-name": "aitools",
+      "title": "Loveable",
+      "description": "Idea to app in seconds.",
+      "image": "https://imgs.search.brave.com/MFnEa5Tpzmm8CeNCywftjo2qEyZsfgtb48n_Rk-6EWc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yZWZp/bmUtd2ViLmltZ2l4/Lm5ldC9ibG9nLzIw/MjUtMDItMTItbG92/YWJsZS9zb2NpYWwu/cG5nP3c9MTc4OA",
+      "website": "https://lovable.dev/"
+    },
+    {
+      "data-name": "aitools",
+      "title": "PixLordiconlr",
+      "description": "Lordicon is a growing library full of carefully crafted, high-quality static and animated icons you won’t find anywhere else.",
+      "image": "https://imgs.search.brave.com/OlhyJ-PrIO4OIY0FDdfev_6VddjANSawisDpO3x0T-Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZWxlZ2FudHRoZW1l/cy5jb20vYmxvZy93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMi8w/NS9Mb3JkaWNvbi1G/dWxsLUVkaXRvci0x/LmpwZw",
+      "website": "https://lordicon.com/"
+    },
+    {
       "data-name": "linux",
       "title": "Ethical Hacking from Scratch",
       "description": "Google crive resources for ethical hacking",
